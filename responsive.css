@@ -1,0 +1,121 @@
+@media screen and (max-width:479px){
+
+  header{
+    text-align: center;
+    width:100%;
+  }
+  .header-right {
+    display: none;
+  }
+
+  .bg-image{
+    height: 275px;
+    width: 100%;
+    position: relative;
+  }
+ .top-text{
+   width: 50%;
+    position: absolute;
+    top:40px;
+    left:100px;
+ }
+ .top-text h1{
+   font-size: 2rem;
+ }
+ .second-text{
+   height: 450px;
+   width: 100%;
+   margin-left: 40px;
+ }
+ .second-text h2{
+   font-size: 2.3rem;
+ }
+
+ p.main-text-1{
+   padding-left: 0;
+ }
+ p.main-text-1,p.main-text-2{
+   width: 60%;
+   height: 150px;
+   margin: 0 auto;
+   display: block;
+   margin-top: 20px;
+   text-align: center;
+   padding-left: 30px;
+ }
+ .search-item{
+   text-align: center;
+   flex-direction: column;
+   display: flex;
+  }
+  .city-wrapper{
+    height: 2000px;
+    box-sizing: border-box;
+  }
+ .cities{
+   width: 100%;
+   margin: 0;
+ }
+  .city{
+    width:100%;
+    margin-left:0 ;
+    margin-bottom: 30px;
+    border: none;  
+  }
+ .model-wrapper{
+   box-sizing: border-box;
+ }
+ .model-title h2{
+   margin: 0 auto;
+   width: 90%;
+   text-align: center;
+ }
+ .model-course{
+   width: 80%;
+   text-align: center;
+ }
+ .pic-wrapper{
+   height: 450px;
+ }
+ .pic-title{
+   width: 100%;
+   margin: 0 auto;
+   position: relative;
+ }
+ .pic-title h2{
+  text-align: center;
+  width: 100%;
+  font-size: 1.3rem;
+  padding-top: 90px;
+ }
+ .pic-ctn img{
+   width: 100%;
+}
+ .pic-title a{
+   width: 30%;
+   position: absolute;
+   top: 330px;
+   left:130px;
+ }
+  footer{
+    text-align: center;
+    height: 350px;
+    overflow: hidden;
+        position: relative;
+  }
+  .footer-left{
+    width: 50%;
+    margin: 0 auto;
+   position: absolute;
+   right: 0;
+   top: 20px;
+  }
+  .footer-left li{
+    font-size: 1.8rem;
+    margin-top: 30px;
+    float: right;
+  }
+  .footer-right i{
+    font-size: 2rem;
+  }
+}
